@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:scaleType="fitXY"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        android:id="@+id/img"/>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_toEndOf="@id/img"
+        android:layout_alignTop="@id/img"
+        android:layout_marginStart="10dp"
+        android:scaleType="fitXY"
+        android:id="@+id/img1"/>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_toEndOf="@id/img1"
+        android:layout_alignTop="@id/img1"
+        android:layout_marginStart="10dp"
+        android:scaleType="fitXY"
+        android:id="@+id/img2"/>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/img"
+        android:layout_alignLeft="@id/img"
+        android:layout_marginTop="10dp"
+        android:scaleType="fitXY"
+        android:id="@+id/img4"/>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_toEndOf="@id/img4"
+        android:layout_alignTop="@id/img4"
+        android:layout_marginStart="10dp"
+        android:scaleType="fitXY"
+        android:id="@+id/img5"/>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_toEndOf="@id/img5"
+        android:layout_alignTop="@id/img5"
+        android:layout_marginStart="10dp"
+        android:scaleType="fitXY"
+        android:id="@+id/img6"/>
+
+</RelativeLayout>
